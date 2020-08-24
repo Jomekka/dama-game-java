@@ -1,15 +1,14 @@
 package application;
 
 import Tabuleiro.Posicao;
+import dama.PartidaDama;
 
 public class Program {
     
     public static void main(String [] args){
-        System.out.println("Hello");
         
-        Posicao d = new Posicao(3,5);
-        
-        System.out.println(d);
+        PartidaDama partidaDama = new PartidaDama();
+        UI.imprimeTabuleiro(partidaDama.getPeças());
         
         
         
