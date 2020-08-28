@@ -1,6 +1,5 @@
 package application;
 
-import Tabuleiro.Posicao;
 import dama.PartidaDama;
 
 public class Program {

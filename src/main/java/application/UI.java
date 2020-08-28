@@ -5,9 +5,9 @@ import dama.PeçaDama;
 public class UI {
     
     public static void imprimeTabuleiro(PeçaDama [][] peças){
-        for(int l=0;l<peças.length; l++){
+        for(int l=0;l<8; l++){
             System.out.print((8-l)+" ");
-            for(int c=0; c<peças.length;c++){
+            for(int c=0; c<8;c++){
                 imprimePeça(peças[l][c]);
             }
             System.out.println("");

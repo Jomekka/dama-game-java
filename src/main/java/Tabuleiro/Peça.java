@@ -23,16 +23,22 @@ public class Peça {
     public void setPosicao(Posicao posicao) {
         this.posicao = posicao;
     }
-    
-    public Peça movimentosPossiveis(){
-        
+//    
+//    public Peça movimentosPossiveis(){
+//        
+//    }
+//    
+//    public boolean movimentoPossivel(Posicao posicao){
+//        
+//    }
+//    
+//    public boolean algumMovimentoPossivel(){
+//        
+//    }
+    @Override
+    public String toString(){
+        return "O";
     }
     
-    public boolean movimentoPossivel(Posicao posicao){
-        
-    }
     
-    public boolean algumMovimentoPossivel(){
-        
-    }
 }

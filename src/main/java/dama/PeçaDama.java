@@ -12,11 +12,16 @@ public class PeçaDama extends Peça{
         this.cor = cor;
     }
 
+    public PeçaDama() {
+    }
+
     public Cor getCor() {
         return cor;
     }
      
-    
-    
+    @Override
+    public String toString(){
+        return "O";
+    }
     
 }

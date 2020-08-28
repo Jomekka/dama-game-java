@@ -40,21 +40,25 @@ public class Tabuleiro {
         return peças[posicao.getLinha()][posicao.getColuna()];
     }
     
-    public void botarPeça(Peça peça, Posicao posicao){
-        
-    }
+//    public void botarPeça(Peça peça, Posicao posicao){
+//        
+//    }
+//    
+//    public Peça removerPeça(Posicao posicao){
+//        
+//    }
+//    
+//    public boolean posicaoExiste(Posicao posicao){
+//        
+//    }
+//    
+//    public boolean temAlgumaPeça(Posicao posicao){
+//        
+//    }
     
-    public Peça removerPeça(Posicao posicao){
-        
+    public void colocarPeça(Peça peça, Posicao posicao){
+        peças[posicao.getLinha()][posicao.getColuna()] = peça;
+        peça.posicao = posicao;
     }
-    
-    public boolean posicaoExiste(Posicao posicao){
-        
-    }
-    
-    public boolean temAlgumaPeça(Posicao posicao){
-        
-    }
-    
     
 }
